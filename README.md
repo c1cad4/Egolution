@@ -1,6 +1,6 @@
 # Egolution — from Big Bang to ROBOTCYB
 
-A buildless, full-window browser game for mouse, keyboard, phone and tablet. Seven forms: cosmic spark → molecule → cell → egg → creature → mind → ROBOTCYB. Collect light, avoid anomalies and pick free speed, resilience or collection-range adaptations. Fill ROBOTCYB's core to begin another universe. This is a fictional evolution story, not a scientific simulation.
+A buildless, full-window browser game for mouse, keyboard, phone and tablet. Seven forms: cosmic spark → molecule → cell → egg → creature → mind → ROBOTCYB. Collect light, avoid anomalies and pick free speed, resilience or collection-range adaptations. Complete numbered chapter milestones as well as filling the light meter. Fill ROBOTCYB's core and wake its sleeping cores to begin another universe. This is a fictional evolution story, not a scientific simulation.
 
 ## Run and test
 
@@ -36,3 +36,9 @@ Rendering is capped near 60 FPS during play, 10 FPS in dialogs / pause, suspende
 ## Assets
 
 The original ROBOTCYB JPEG is provided by the project owner and copied without modification. Forms, backgrounds and particles are drawn in canvas. The optional wallet bundle is @solana/web3.js; its license is preserved in `public/vendor/SOLANA-LICENSE`. It loads only when confirming checkout.
+
+## Chapter update
+
+Follow the numbered beacons and the bottom-left radar. Ignite three stars; bond atoms (4 light per bond); feed three organelles (6 light each); incubate the egg by remaining still in its nest for 3 uninterrupted seconds; chase moving life sparks; connect thought nodes; and wake sleeping ROBOTCYB cores (5 light each). Both the chapter objectives and the light meter are required for evolution. Objective progress is saved. Old saves at a filled meter retain their completed chapter; partially filled saves keep their light and start the new milestones.
+
+The free Boost button or E gives 0.8 seconds of increased speed with a 6-second cooldown. It does not grant invulnerability. Simulation time cycles through 30 seconds of calm, 15 seconds of aurora (double collection) and 15 seconds of stronger solar anomalies. Events and cooldowns stop during pause, dialogs, shell previews and hidden tabs. No additional backend resources or particle-count growth are introduced.
